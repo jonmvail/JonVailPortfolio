@@ -34,16 +34,8 @@ I selected the features I felt would be most aplicable to a house based on my ex
 R-squared .77
 
 The top features are as follows
-1) Neighborhood_GrnHill	
-2) Year Remod/Add_2010
-3) Neighborhood_StoneBr
-4) Year Remod/Add_2009
-5) MS Zoning_I (all)
-6) Neighborhood_NoRidge
-7) Neighborhood_Veenker
-8) MS Zoning_FV
-9) Neighborhood_NridgHt
-10) MS Zoning_RL
+
+![alt text](https://github.com/jonmvail/JonVailPortfolio/blob/master/Ames_Housing_Regression/Images/Ames%20snip%205.PNG)
 
 **Model 4**
 Used Lasso to select the features for me.
