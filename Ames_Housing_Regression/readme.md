@@ -1,6 +1,8 @@
 # Ames Housing Data and Kaggle Challenge
 Date: **May 18, 2018**
 
+![alt text](https://github.com/jonmvail/JonVailPortfolio/blob/master/Ames_Housing_Regression/Images/Ames%20city.PNG)
+
 ## Goal
 Create a regression model that can predict the price of houses in Ames Iowa with the data from the Kaggle page (https://www.kaggle.com/c/ames-housing-data) 
 
