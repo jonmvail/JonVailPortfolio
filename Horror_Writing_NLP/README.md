@@ -31,7 +31,9 @@ EAP    0.403494
 MWS    0.308698
 HPL    0.287808
 
+
 ![alt text](https://github.com/jonmvail/JonVailPortfolio/blob/master/Horror_Writing_NLP/Images/POE.png)
+
 
 EAP most common words
 said       245
@@ -57,6 +59,7 @@ old        100
 
 ![alt text](https://github.com/jonmvail/JonVailPortfolio/blob/master/Horror_Writing_NLP/Images/HP.png)
 
+
 HPL most common words
 old        278
 like       190
@@ -80,6 +83,7 @@ long       102
 thought    102
 
 ![alt text](https://github.com/jonmvail/JonVailPortfolio/blob/master/Horror_Writing_NLP/Images/MS.png)
+
 
 MWS most common words
 life       229
