@@ -50,16 +50,7 @@ Used Lasso to select the features for me.
 R-Squared .81
 
 The top features are as follows
-1) Gr Liv Area
-2) Overall Qual_9	
-3) Overall Qual_10	
-4) BsmtFin SF 1	
-5) Total Bsmt SF	
-6) Overall Qual_8	
-7) Lot Area	
-8) Mas Vnr Area	
-9) Garage Area	
-10) Exter Qual_TA	
+![alt text](https://github.com/jonmvail/JonVailPortfolio/blob/master/Ames_Housing_Regression/Images/Ames%20snip%203.PNG)
 
 ## Evaluation
 
