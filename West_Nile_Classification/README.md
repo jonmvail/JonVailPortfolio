@@ -16,19 +16,19 @@ The data needed to be cleaned, especially the weather data. Much of the informat
 
 During EDA, we discovered many trends about when the peak West Nile season was for the city of Chicago. It is volitile for year to year, but seemed to be highest during rather wet summer months. In feature engineering, We created the following features.
 
-##Day length
+## Day length
 - Used sunrise and sunset to create a numerical variable
 
-##Wind Direction Dummies
+## Wind Direction Dummies
 - Made ranges from 360 degrees data that gives direction of wind in 4 categories 
 
-##Time
+## Time
 - Converted time to UTC float format.
  
-##Weather Code dummies
+## Weather Code dummies
 - Found top occuring weather codes and created dummies for those instances 
 
-##Temperature
+## Temperature
 - Used Tmax and Tmin to create a temperature range feature.
 
 
