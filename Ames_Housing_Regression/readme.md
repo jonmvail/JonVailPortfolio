@@ -1,5 +1,4 @@
-#Ames Housing Data and Kaggle Challenge
-
+# Ames Housing Data and Kaggle Challenge
 Date: **May 18, 2018**
 
 ## Goal
