@@ -4,17 +4,29 @@ Date: **June 15, 2018**
 
 Jon Vail, Connor Foley, Tarin Poddar
 
+![alt text](https://github.com/jonmvail/JonVailPortfolio/blob/master/West_Nile_Classification/Graphs/chicago.jpg)
+
 ## Goal
 We preformed an analysis on the West Nile virus in Chicago and how best to predict the times inwhich the virus would be most likly to spread. 
 
 ## Data
 We used data from the Kaggle compitition that included Weather, Trap, and Spray data. The weather data contained daily information from 2 stations in chicago. Trap data contained the location of traps around the city and when they were inspected. The number, species, and if the west nile virus was present was recorded. The Spray data contained information on when and where the city sprayed for mosquitos.
 
+![alt text](https://github.com/jonmvail/JonVailPortfolio/blob/master/West_Nile_Classification/Graphs/West%20Nile%20Map.PNG)
+
 ## EDA and Feature Engineering
 The data needed to be cleaned, especially the weather data. Much of the information from station 2 was missing and many columns were not useful for analysis and were dropped. The training data needed to have the rows merged on Dat, Trap, and Species as the mosquito count would not go higher than 50 and then would go to a new row. After cleaning, the weather data was merged with the trap data. Merging spray data was attempted, but because the test data would not have any spraying, this was not deemed as essential and would be evaluated only if time permitted.
 **(This code can be found in the clean merge Workbook)**
 
-During EDA, we discovered many trends about when the peak West Nile season was for the city of Chicago. It is volitile for year to year, but seemed to be highest during rather wet summer months. In feature engineering, We created the following features.
+During EDA, we discovered many trends about when the peak West Nile season was for the city of Chicago. It is volitile for year to year, but seemed to be highest during rather wet summer months.
+
+![alt text](https://github.com/jonmvail/JonVailPortfolio/blob/master/West_Nile_Classification/Graphs/West%20Nile%20Presip.PNG)
+
+This information, matched with the the positive cases month-to-month, gave us a broad understanding of what enviornment we were looking at.
+
+![alt text](https://github.com/jonmvail/JonVailPortfolio/blob/master/West_Nile_Classification/Graphs/West%20nile%20Pos.PNG)
+
+In feature engineering, We created the following features.
 
 **Day length**
 - Used sunrise and sunset to create a numerical variable
@@ -31,6 +43,10 @@ During EDA, we discovered many trends about when the peak West Nile season was f
 **Temperature**
 - Used Tmax and Tmin to create a temperature range feature.
 
+**Location Clustering**
+- Used K-means clustering on the trap locations to group them into 4 seperate locations
+
+![alt text](https://github.com/jonmvail/JonVailPortfolio/blob/master/West_Nile_Classification/Graphs/West%20Nile%20Cluster.PNG)
 
 ## Modeling
 For modeling, we wanted to focus on models that could work best with Imbalanced classed. We tried many, but the one that worked best for us was a random forest that fed into a Balanced Bagging Classifier pipeline. This was used try and rebalance the classes. Through this we found that the most important features revoled around the Culex Species of mosquitos and the wetness of the weather. Unfortunatly, while we were about to get decent results when cross valitating with our own data, we were never able to get far past baseline with the kaggle data.
