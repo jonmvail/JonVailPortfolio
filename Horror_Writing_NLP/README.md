@@ -27,7 +27,9 @@ No nulls present. Text seems clean. only oddity found during exploration is that
 
 ## EDA 
 
+In the training data, the text leaned more heavily towards Edgar Allan Poe as opposed to the other authors, but not to a major degree. There is the possibility for issues with majority classes, but because there are more then 2 classes and the difference is not severe, the risk is limited and will not be focused on in the first modeling attempt.
 
+**Data Distrobution**
 - EAP    0.403494
 - MWS    0.308698
 - HPL    0.287808
@@ -39,74 +41,74 @@ No nulls present. Text seems clean. only oddity found during exploration is that
 **EAP most common words**
 1) said       245
 2) little     192
-say        188
-time       178
-man        171
-great      164
-did        144
-long       144
-having     131
-day        128
-eyes       125
-head       125
-like       121
-length     119
-far        114
-mr         110
-thought    110
-left       107
-way        103
-old        100
+3) say        188
+4) time       178
+5) man        171
+6) great      164
+7) did        144
+8) long       144
+9) having     131
+10) day        128
+11) eyes       125
+12) head       125
+13) like       121
+14) length     119
+15) far        114
+16) mr         110
+17) thought    110
+18) left       107
+19) way        103
+20) old        100
 
 ![alt text](https://github.com/jonmvail/JonVailPortfolio/blob/master/Horror_Writing_NLP/Images/HP.png)
 
 
-HPL most common words
-old        278
-like       190
-night      179
-did        176
-man        175
-saw        165
-time       165
-things     164
-came       152
-house      140
-men        140
-great      138
-thing      137
-heard      122
-strange    118
-said       110
-street     107
-door       106
-long       102
-thought    102
+**HPL most common words**
+1) old        278
+2) like       190
+3) night      179
+4) did        176
+5) man        175
+6) saw        165
+7) time       165
+8) things     164
+9) came       152
+10) house      140
+11) men        140
+12) great      138
+13) thing      137
+14) heard      122
+15) strange    118
+16) said       110
+17) street     107
+18) door       106
+19) long       102
+20) thought    102
 
 ![alt text](https://github.com/jonmvail/JonVailPortfolio/blob/master/Horror_Writing_NLP/Images/MS.png)
 
 
-MWS most common words
-life       229
-love       210
-heart      183
-did        177
-raymond    176
-eyes       174
-time       163
-man        155
-said       148
-day        139
-death      137
-mind       125
-father     120
-shall      117
-like       113
-night      109
-saw        109
-perdita    106
-thought    100
-nature      97
+**MWS most common words**
+1) life       229
+2) love       210
+3) heart      183
+4) did        177
+5) raymond    176
+6) eyes       174
+7) time       163
+8) man        155
+9) said       148
+10) day        139
+11) death      137
+12) mind       125
+13) father     120
+14) shall      117
+15) like       113
+16) night      109
+17) saw        109
+18) perdita    106
+19) thought    100
+20) nature      97
 
 ## MODELING
 
