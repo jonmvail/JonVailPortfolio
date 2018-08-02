@@ -144,7 +144,7 @@ Ada Boosting
 
 Accuracy
 
--Train .561
+- Train .561
 - Test .562
 
 Log Loss
