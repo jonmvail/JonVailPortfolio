@@ -27,17 +27,18 @@ No nulls present. Text seems clean. only oddity found during exploration is that
 
 ## EDA 
 
-EAP    0.403494
-MWS    0.308698
-HPL    0.287808
+
+- EAP    0.403494
+- MWS    0.308698
+- HPL    0.287808
 
 
 ![alt text](https://github.com/jonmvail/JonVailPortfolio/blob/master/Horror_Writing_NLP/Images/POE.png)
 
 
-EAP most common words
-said       245
-little     192
+**EAP most common words**
+1) said       245
+2) little     192
 say        188
 time       178
 man        171
