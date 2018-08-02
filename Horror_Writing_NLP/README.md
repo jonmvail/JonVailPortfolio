@@ -1,5 +1,5 @@
 # Jon Vail Horror Writers NLP
-
+![alt text](https://github.com/jonmvail/JonVailPortfolio/blob/master/Horror_Writing_NLP/Images/free-vector-edgar-allen-poe-clip-art_105943_Edgar_Allen_Poe_clip_art_hight.png)
 Date: **July 17, 2018**
 
 Kaggle compitiotion "Spooky Author Identification"
