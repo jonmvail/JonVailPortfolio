@@ -110,9 +110,29 @@ In the training data, the text leaned more heavily towards Edgar Allan Poe as op
 19) thought    100
 20) nature      97
 
+## Feature Engineering
+The following features were created using nltk. Individual features were standardized before being added to the feature union. 
+
+**Parts of Speech**
+(Parts of speech were standardized by what percentage of words in the sentence are that part of speech)
+- Noun Fraction
+- Adverb Fraction
+- Adjectives Fraction
+- Future Tense Verb Fraction
+- Present Tense Verb Fraction
+- Past Tense Verb Fraction
+
+**Sentiment Intensity Analyser**
+- Compound (
+
+**Other**
+- Word Count (What is the wordcount of the sentence)
+- Question (Does the text end in a question mark)
+- Highest Syllables (what is the highest syllable word in the sentence)
+
 ## MODELING
 
-Multinomial logistic Regression
+**Multinomial logistic Regression**
 
 Accuracy
 
@@ -124,9 +144,10 @@ Log Loss
 - Train .242
 - Test .523
 
-Feature Importance: Text
+**Feature Importance: Text**
+The majority of the feature importance relies on the individual words as opposed to the features that were created from the text vectorizing. 
 
-Random Forest
+**Random Forest**
 
 Accuracy
 
@@ -138,9 +159,10 @@ Log Loss
 - Train .205
 - Test 1.42
 
-Feature Importance: Created Features
+**Feature Importance: Created Features**
+The features that had the highest importance in the random forest are those that were created by me
 
-Ada Boosting
+**Ada Boosting**
 
 Accuracy
 
@@ -152,7 +174,8 @@ Log Loss
 - Train 1.06
 - Test 1.06
 
-Feature Importance: Created and Text Features
+**Feature Importance: Created and Text Features**
+Adaboosting showed a mix of the vectorized text and created features as importance
 
 ## EVALUATION
 Overall, Logistice Regression seems to work best, but overfitting prevents the model from performing to its best. More work would be needed to solve this problem. Once solved this method could be used to either expand this problem (Add more horror writers) or try to build model on different 
