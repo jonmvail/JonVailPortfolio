@@ -123,7 +123,7 @@ The following features were created using nltk. Individual features were standar
 - Past Tense Verb Fraction
 
 **Sentiment Intensity Analyser**
-- Compound (
+- Compound (using nltk's sentiment analysis tool, the compound gives a since of how positive or negative a sentence is)
 
 **Other**
 - Word Count (What is the wordcount of the sentence)
